@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Maskot - Veterinaria</title>
+    <link rel="icon" href="img/Logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-maskot">
+            <div class="container">
+                <a href="Maskot.html" class="navbar-brand d-flex align-items-center gap-2">
+                    <img src="img/Logo.png" alt="Logo Maskot" class="logo">
+                    <span class="marca">Maskot</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-3">
+                        <li class="nav-item"><a class="nav-link opcion-menu" href="Maskot.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link opcion-menu" href="Servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link opcion-menu" href="#contacto">Contáctanos</a></li>
+                        <li class="nav-item">
+                            <button class="btn btn-login-nav" data-bs-toggle="modal"
+                                data-bs-target="#loginModal">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Dejarla en otra html queda mejor el form -->
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-login">
+                <div class="modal-header border-0">
+                    <h2 class="modal-title w-100 text-center">Iniciar Sesión</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password"
+                                placeholder="Ingrese su contraseña" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-login w-100">Ingresar</button>
+
+                        <div class="d-flex justify-content-between mt-3">
+                            <a href="#" class="link-login">¿Olvidó su contraseña?</a>
+                            <a href="registro.html" class="link-login">Regístrese</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <section class="banner">
+        <h1>Veterinaria Maskot</h1>
+        <p>El mejor servicio de mascotas</p>
+    </section>
+
+    <main>
+        <section class="container py-5" id="inicio">
+            <p class="texto-inicio">
+                ¿Heyy Buscas la mejor atención para tu mascota? En <span class="nombre">Maskot</span> ofrecemos
+                servicios
+                médicos integrales que incluyen consulta general, vacunación, cirugías y urgencias. Nuestro equipo de
+                profesionales combina experiencia y amor por los animales para garantizar que tu compañero de cuatro
+                patas reciba un cuidado seguro, confiable y de la más alta calidad. ¡Agenda tu cita hoy y dale el
+                bienestar que merece!
+            </p>
+        </section>
+
+        <section class="container py-5" id="servicios">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card tarjeta h-100 text-center">
+                        <img src="img/bulldog.png" alt="Mascotas" class="card-img-top img-tarjeta">
+                        <div class="card-body">
+                            <h2>Consultas</h2>
+                            <p>Cuidamos la salud de tu mascota! Agenda hoy su consulta médica de rutina o chequeo
+                                general. Recibe atención profesional y con el cariño que tu mejor amigo merece.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card tarjeta h-100 text-center">
+                        <img src="img/comida.png" alt="Mascotas" class="card-img-top img-tarjeta">
+                        <div class="card-body">
+                            <h2>Alimento</h2>
+                            <p>Cuidamos la salud de tu mascota! Agenda hoy su consulta médica de rutina o chequeo
+                                general. Recibe atención profesional y con el cariño que tu mejor amigo merece.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card tarjeta h-100 text-center">
+                        <img src="img/cama.png" alt="Mascotas" class="card-img-top img-tarjeta">
+                        <div class="card-body">
+                            <h2>Accesorios</h2>
+                            <p>Cuidamos la salud de tu mascota! Agenda hoy su consulta médica de rutina o chequeo
+                                general. Recibe atención profesional y con el cariño que tu mejor amigo merece.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario py-5">
+            <div class="container">
+                <form class="mx-auto formularioC">
+                    <h2>Domicilios Maskot Internacionales</h2>
+                    <input type="text" class="form-control mb-3" placeholder="Escribe tu nombre" minlength="3"
+                        maxlength="30" required>
+                    <input type="email" class="form-control mb-3" placeholder="Escribe tu correo" required>
+                    <input type="number" class="form-control mb-3" placeholder="Cantidad" min="1" max="20" required>
+                    <input type="text" class="form-control mb-3" placeholder="Pais" minlength="5" maxlength="80"
+                        required>
+                    <input type="text" class="form-control mb-3" placeholder="Dirección de entrega" minlength="5"
+                        maxlength="80" required>
+                    <textarea name="" class="form-control" rows="4" maxlength="150"
+                        placeholder="Observaciones adicionales"></textarea>
+                    <button type="submit" class="btn btn-solicitar">Solicitar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="container">
+            <p class="textoF">
+                ¡Haz tu pedido de forma rápida y sencilla! Escríbenos para solicitar tus alimentos, accesorios o
+                medicamentos favoritos. Nos encargamos de todo para que tu mascota nunca se quede sin lo que necesita.
+                <br><b>¡Contáctanos ahora y programa tu entrega!</b>
+            </p>
+        </section>
+
+        <section class="container py-5" id="contacto">
+            <div class="row align-items-center g-4">
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid perro" src="img/perro.png" alt="Perro">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="titulo-mapa">Tienda de mascotas</h2>
+                    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 75%;">
+                        <iframe
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD1VnYC6EugmolDY9RjsZ77TeXstyj0288&q=Yakutsk,+Rep%C3%BAblica+de+Saj%C3%A1,+Rusia&center=62.0369106,129.6885585&zoom=13"
+                            style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 2;"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <Footer id="contactos">
+
+        <div class="container">
+
+            <div class="row aling-items-rights g-4">
+
+                <div class="col-md-4">
+
+                    <h6><b>Nuestras Redes</b></h6>
+                    <a href="https://vk.com/al_feed.php">
+                        <p><i class="fa-brands fa-vk"></i>@VK-Mask</p>
+                    </a>
+                    <a href="https://www.threads.com/?hl=es">
+                        <p><i class="fa-brands fa-square-threads"></i>@X-MasOficial</p>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <h6><b>Ubicacion</b></h6>
+                    <p><i class="fa-solid fa-map-location-dot"></i>Rusia</p>
+                    <p><i class="fa-solid fa-map-location-dot"></i>Yakust-Rusia</p>
+                </div>
+
+                <!-- <div class="col-md-4">
+                    <h6><b>PQR</b></h6>
+                    <p><i class="fa-solid fa-envelope"></i>SupportMaskot</p>
+                </div> -->
+
+                <div class="col-md-4">
+                    <h6><b>Trabaja con nosotros</b></h6>
+                    <p><i class="fa-solid fa-briefcase"></i>+57 0000123992</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </Footer>
+
+    <script src="js/login.js"></script>
+
+    <script src="js/Script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+
+
+
+</body>
+
+</html>
