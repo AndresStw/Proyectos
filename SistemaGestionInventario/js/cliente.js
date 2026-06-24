@@ -1,0 +1,1 @@
+console.log("Script  cliente cargado");

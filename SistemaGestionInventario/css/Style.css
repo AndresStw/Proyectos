@@ -303,14 +303,15 @@ body {
     height: 350px;
     display: block;
 }
- footer{
+
+footer {
     background-image: url(../img/Footer.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: top center;
     padding: 50px 30px;
 
- }
+}
 
 @media (max-width: 768px) {
 

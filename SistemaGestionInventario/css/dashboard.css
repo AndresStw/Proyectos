@@ -36,7 +36,7 @@ body {
 .sidebar {
     width: 270px;
     background-color: #fffdf4;
-    border-right: 1px solid rgba(0,0,0,.08);
+    border-right: 1px solid rgba(0, 0, 0, .08);
     padding: 30px 20px;
 }
 
@@ -91,14 +91,14 @@ body {
 
 
 .sidebar-menu a:hover {
-    background-color: rgba(221,64,58,.10);
+    background-color: rgba(221, 64, 58, .10);
     color: var(--rojo);
 }
 
 
 /* Quita el rojo permanente fuerte */
 .sidebar-menu a.active {
-    background-color: rgba(221,64,58,.12);
+    background-color: rgba(221, 64, 58, .12);
     color: var(--rojo);
     border-left: 4px solid var(--rojo);
 }
@@ -111,7 +111,7 @@ body {
     flex: 1;
     padding: 35px;
     background:
-        radial-gradient(circle at top right, rgba(221,64,58,.07), transparent 35%),
+        radial-gradient(circle at top right, rgba(221, 64, 58, .07), transparent 35%),
         var(--fondo);
 }
 
@@ -127,8 +127,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.06);
-    border-top: 2px solid rgba(221,64,58,.45);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .06);
+    border-top: 2px solid rgba(221, 64, 58, .45);
 }
 
 
@@ -171,15 +171,15 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.06);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .06);
     transition: .3s;
-    border-left: 3px solid rgba(221,64,58,.65);
+    border-left: 3px solid rgba(221, 64, 58, .65);
 }
 
 
 .card-resumen:hover {
     transform: translateY(-5px);
-    box-shadow: 0 14px 30px rgba(0,0,0,.10);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .10);
 }
 
 
@@ -209,8 +209,8 @@ body {
     background-color: white;
     border-radius: 24px;
     padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.06);
-    border-top: 2px solid rgba(221,64,58,.45);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .06);
+    border-top: 2px solid rgba(221, 64, 58, .45);
 }
 
 
@@ -317,7 +317,7 @@ body {
 
     .sidebar {
         width: 100%;
-            box-shadow: 4px 0 18px rgba(0,0,0,.04);
+        box-shadow: 4px 0 18px rgba(0, 0, 0, .04);
     }
 
 
@@ -358,4 +358,3 @@ body {
         font-size: 30px;
     }
 }
-
